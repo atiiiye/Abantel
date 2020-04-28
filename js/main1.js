@@ -46,7 +46,7 @@ let nanBarTogglerIcon = document.querySelector('.navbar-toggler-icon');
 let listItemShow = document.querySelector('li.list-item.dropdown')
 let sub22 = document.querySelector('li#sub2-2');
 let sub21 = document.querySelector('li#sub2-1');
-let navItemDropdown = document.querySelector('li#nav-item')
+let navItemDropdown = document.querySelector('li#nav-item');
 
 nanBarTogglerIcon.addEventListener('click', function (e) {
 	nanBarTogglerIcon.classList.toggle("change");
