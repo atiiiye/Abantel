@@ -237,10 +237,6 @@ div.navbar-right .hamburger-menu .menu-line {
   }
 }
 
-div.navbar-right div.collapse ul.navbar-nav li.nav-item {
-  border-left: 1px solid #ff3838;
-}
-
 @media (max-width: 992px) {
   div.navbar-right div.collapse ul.navbar-nav li.nav-item {
     border-left: 0px;
@@ -300,9 +296,23 @@ div.navbar-right div.collapse ul.navbar-nav li.nav-item ul.dropdown-menu#sub-men
   max-width: 13rem;
 }
 
-@media (max-width: 1040px) {
+@media (max-width: 991px) {
   div.navbar-right div.collapse ul.navbar-nav li.nav-item ul.dropdown-menu#sub-menu-0 li.list-item.dropdown.show ul#sub-menu-1 {
     font-size: 90%;
+    width: 10rem;
+    position: absolute;
+    top: -1px;
+    right: 10.84rem;
+  }
+}
+
+@media (max-width: 485px) {
+  div.navbar-right div.collapse ul.navbar-nav li.nav-item ul.dropdown-menu#sub-menu-0 li.list-item.dropdown.show ul#sub-menu-1 {
+    font-size: 90%;
+    width: 9.5rem;
+    position: absolute;
+    top: -1px;
+    right: 9.82rem;
   }
 }
 
@@ -373,7 +383,7 @@ div.navbar-right div.collapse ul.navbar-nav li.nav-item.dropdown ul.dropdown-men
   margin-top: 0;
   padding-bottom: 0;
   padding-top: 0;
-  min-width: 14rem;
+  width: 14rem;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   position: absolute;
@@ -381,11 +391,21 @@ div.navbar-right div.collapse ul.navbar-nav li.nav-item.dropdown ul.dropdown-men
   text-align: right;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   div.navbar-right div.collapse ul.navbar-nav li.nav-item.dropdown ul.dropdown-menu {
     position: absolute;
     top: 0px;
     right: 6.4rem;
+    width: 11rem;
+  }
+}
+
+@media (max-width: 485px) {
+  div.navbar-right div.collapse ul.navbar-nav li.nav-item.dropdown ul.dropdown-menu {
+    position: absolute;
+    top: 0px;
+    right: 6.4rem;
+    width: 10rem;
   }
 }
 
