@@ -8,8 +8,6 @@ $(document).ready(function () {
 		return false;
 	});
 
-	var $hamburgerMenu = $('div.hamburgerMenu');
-	console.log($hamburgerMenu);
 
 	$('li.dropdown-item').on('click', function (e) {
 		$(this).parents('ul.dropdown-menu.show').removeClass('show');
@@ -31,53 +29,70 @@ $(document).ready(function () {
 		$(this).parents('div.navbar-right').children('div.navbar-toggler').children('span.navbar-toggler-icon').toggleClass('change')
 	})
 
-	$('li.dropdown-item').on('click', function () {
+	$('li.dropdown-item').on('click', function (e) {
 		$(this).parents('div.collapse.navbar-collapse.show').removeClass('show');
 		$(this).parents('div.navbar-right').children('div.navbar-toggler').children('span.navbar-toggler-icon').toggleClass('change')
 		// $(this).parents('list-item.dropdown.show').removeClass('show');
 	})
 
-	//29.4.2020
+
+	let nanBarTogglerIcon = document.querySelector('.navbar-toggler-icon');
+	let listItemShow = document.querySelector('li.list-item.dropdown')
+	let sub22 = document.querySelector('li#sub2-2');
+	let sub21 = document.querySelector('li#sub2-1');
+	let navItemDropdown = document.querySelector('li#nav-item');
+	let navItemDropdowns = document.querySelectorAll('li.nav-item.dropdown')
+
+
+
+	nanBarTogglerIcon.addEventListener('click', function (e) {
+		nanBarTogglerIcon.classList.toggle("change");
+	})
+
+	sub22.addEventListener('click', function () {
+		sub21.classList.remove('show');
+	})
+
+	sub21.addEventListener('click', function () {
+		sub22.classList.remove('show');
+	})
+
+	navItemDropdown.addEventListener('click', function () {
+		sub21.classList.remove('show');
+		sub22.classList.remove('show');
+	})
+
+	navItemDropdowns.forEach(navItem=>navItem.addEventListener('mouseover', function () {
+		navItem.classList.add('show')
+		let dropdownMenus = navItem.querySelector('ul.dropdown-menu');
+		// dropdownMenus.forEach(dropdownMenu=>dropdownMenu.classList.add('show'))
+		dropdownMenus.classList.add('show')
+	}))
+
+	navItemDropdowns.forEach(navItem=>navItem.addEventListener('mouseleave', function () {
+		navItem.classList.remove('show')
+		let dropdownMenus = navItem.querySelector('ul.dropdown-menu');
+		// dropdownMenus.forEach(dropdownMenu=>dropdownMenu.classList.remove('show'))
+		dropdownMenus.classList.remove('show')
+	}))
+
+	sub22.addEventListener('mouseover', function () {
+		this.classList.add('show');
+	})
+
+	sub22.addEventListener('mouseleave', function () {
+		this.classList.remove('show');
+	})
+
+
+	sub21.addEventListener('mouseover', function () {
+		this.classList.add('show');
+	})
+
+	sub21.addEventListener('mouseleave', function () {
+		this.classList.remove('show');
+	})
+
 
 })
 
-
-let nanBarTogglerIcon = document.querySelector('.navbar-toggler-icon');
-let listItemShow = document.querySelector('li.list-item.dropdown')
-let sub22 = document.querySelector('li#sub2-2');
-let sub21 = document.querySelector('li#sub2-1');
-let navItemDropdown = document.querySelector('li#nav-item');
-
-nanBarTogglerIcon.addEventListener('click', function (e) {
-	nanBarTogglerIcon.classList.toggle("change");
-})
-
-sub22.addEventListener('click', function () {
-	sub21.classList.remove('show');
-})
-
-sub21.addEventListener('click', function () {
-	sub22.classList.remove('show');
-})
-
-navItemDropdown.addEventListener('click', function () {
-	sub21.classList.remove('show');
-	sub22.classList.remove('show');
-})
-
-sub22.addEventListener('mouseover', function () {
-	this.classList.add('show');
-})
-
-sub22.addEventListener('mouseleave', function () {
-	this.classList.remove('show');
-})
-
-
-sub21.addEventListener('mouseover', function () {
-	this.classList.add('show');
-})
-
-sub21.addEventListener('mouseleave', function () {
-	this.classList.remove('show');
-})

@@ -238,8 +238,6 @@
                                     _: "",
                                     1: ""
                                 },
-
-
                             },
                             "sProcessing": "Procesando...",
                             "sLengthMenu": " _MENU_ ",

@@ -88,7 +88,7 @@ div.navbar {
     justify-content: space-between;
     font-size: 100%;
     padding: 0 1rem;
-    background-color: $color-blue;
+    background-color: $color-5;
     max-height: 100%;
 
 
@@ -183,12 +183,10 @@ div.navbar {
                 }
 
                 li.nav-item {
-
                     // border-left: 1px solid $color-6;
                     &:hover>a {
-                        background-color: $color-orange;
+                        background-color: $color-6;
                     }
-
 
                     ul.dropdown-menu#sub-menu-0 {
                         margin-top: 0;
@@ -268,7 +266,7 @@ div.navbar {
 
                                 &:hover {
                                     background-color: #f1f1f1;
-                                    color: $color-orange;
+                                    color: $color-6;
 
                                 }
 
@@ -308,7 +306,9 @@ div.navbar {
                         }
 
                         i.fa-home {
-                            font-size: 1.2rem;
+                            font-size: 1.3rem;
+                            // color: $color-navbar;
+                          
                         }
                     }
                 }
@@ -320,15 +320,16 @@ div.navbar {
 
                         &:hover>a {
                             color: #000000;
+                            background-color: transparent;
                         }
                     }
 
                 }
 
                 li.nav-item.dropdown {
-                    &:hover>a {
-                        background-color: $color-orange;
-                    }
+                    // &:hover>a {
+                    //    background-color: $color-6;
+                    // }
 
                     i.jet-dropdown-arrow {
                         transform: rotate(0deg);
@@ -337,6 +338,10 @@ div.navbar {
                     @media(max-width:991px) {
                         i.jet-dropdown-arrow {
                             transform: rotate(90deg);
+                        }
+
+                        &:hover>a {
+                            background-color: unset;
                         }
                     }
 
@@ -356,7 +361,7 @@ div.navbar {
 
                             &:hover>a {
                                 background-color: $color-navbar;
-                                color: $color-orange;
+                                color: $color-6;
                             }
 
                             a.dropdown-item {
@@ -373,7 +378,7 @@ div.navbar {
 
                                     &:hover>a {
                                         background-color: $color-navbar;
-                                        color: $color-orange;
+                                        color: $color-6;
                                     }
 
                                     a.dropdown-item {
@@ -541,7 +546,7 @@ div.navbar {
 
                         a.nav-link {
                             font-size: 90%;
-                            background-color: unset;
+                            // background-color: transparent;
 
                         }
 
@@ -558,7 +563,6 @@ div.navbar {
                 .fa {
                     transition: .3s transform ease-in-out;
                 }
-
             }
 
             @media(max-width: 991px) {
@@ -576,6 +580,7 @@ div.navbar {
 
         .navbar-nav {
             .nav-item {
+               
                 .nav-link {
                     color: #fff;
 
@@ -585,12 +590,13 @@ div.navbar {
 
                     .material-icons {
                         font-size: 26px;
-                        padding-left: 1rem;
+                        // padding-left: 1rem;
                         color: #fff !important;
                         // position: relative;
                         // top: 2px;
                         display: flex;
                         align-items: flex-start;
+                      
 
                         @media(max-width: 1199px) {
                             display: none;
