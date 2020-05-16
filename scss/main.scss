@@ -1,8 +1,9 @@
 @import "fonts";
 @import "base";
 
-
-
+// body{
+//     font-size: 90%;
+// }
 header.container-fluid {
     padding: 0;
 }
@@ -89,20 +90,22 @@ div.navbar {
     font-size: 100%;
     padding: 0 1rem;
     background-color: $color-5;
+    height: 45px;
     max-height: 100%;
 
 
     @media(max-width : 991px) {
         padding-top: 1rem;
         padding-bottom: 1rem;
-        // height: max-content
+        min-height: 100%;
+
     }
 
     @media(max-width : 405px) {
         padding-top: 1rem;
         padding-bottom: 1rem;
         width: 100%;
-        // height: max-content
+        height: 100%;
     }
 
 
@@ -119,7 +122,7 @@ div.navbar {
             left: 1rem;
             z-index: 100;
             cursor: pointer;
-            height: $baseMargin*2 + $lineWidth;
+
 
             @media(min-width:992px) {
                 // display: inline-block;
@@ -175,6 +178,7 @@ div.navbar {
 
         div.collapse {
             ul.navbar-nav {
+                height: 45px;
                 li.nav-end {
                     @media(max-width:1199px) {
                         display: none;
@@ -183,6 +187,7 @@ div.navbar {
                 }
 
                 li.nav-item {
+
                     // border-left: 1px solid $color-6;
                     &:hover>a {
                         background-color: $color-6;
@@ -223,30 +228,32 @@ div.navbar {
 
 
 
-                                @media(max-width:1027px) {
+                            }
+
+
+
+                            @media(max-width:1027px) {
+                                ul#sub-menu-1 {
                                     font-size: 95%;
                                     width: 11rem;
-                                    position: absolute;
-                                    top: -1px;
                                     right: 10.88rem;
                                 }
+                            }
 
-                                @media(max-width:991px) {
+                            @media(max-width:991px) {
+                                ul#sub-menu-1 {
                                     font-size: 90%;
                                     width: 10rem;
-                                    position: absolute;
-                                    top: -1px;
-                                    right: 10.84rem;
+                                    right: 10.85rem;
                                 }
+                            }
 
-                                @media(max-width:485px) {
+                            @media(max-width:485px) {
+                                ul#sub-menu-1 {
                                     font-size: 85%;
                                     width: 9.5rem;
-                                    position: absolute;
-                                    top: -1px;
                                     right: 9.82rem;
                                 }
-
                             }
 
                             i.jet-dropdown-arrow {
@@ -263,6 +270,7 @@ div.navbar {
                             a.dropdown-item {
                                 text-align: right;
                                 transition: .3s;
+                                font-size: 90%;
 
                                 &:hover {
                                     background-color: #f1f1f1;
@@ -280,9 +288,7 @@ div.navbar {
                             }
 
                             ul.dropdown-menu#sub-menu-1 {
-
                                 display: none;
-
 
                                 li.dropdown-item {
                                     &:active {
@@ -298,8 +304,11 @@ div.navbar {
                     a.nav-link {
                         color: #fff;
                         padding: .8rem .9rem;
+                        padding-bottom: .45rem;
                         cursor: pointer;
                         outline: 0;
+                        font-size: 90%;
+                     
 
                         @media(max-width:1140px) {
                             padding: .7rem .5rem;
@@ -308,7 +317,6 @@ div.navbar {
                         i.fa-home {
                             font-size: 1.3rem;
                             // color: $color-navbar;
-                          
                         }
                     }
                 }
@@ -327,17 +335,15 @@ div.navbar {
                 }
 
                 li.nav-item.dropdown {
-                    // &:hover>a {
-                    //    background-color: $color-6;
-                    // }
 
+                   
                     i.jet-dropdown-arrow {
                         transform: rotate(0deg);
                     }
 
                     @media(max-width:991px) {
                         i.jet-dropdown-arrow {
-                            transform: rotate(90deg);
+                            transform: rotate(0deg);
                         }
 
                         &:hover>a {
@@ -352,7 +358,8 @@ div.navbar {
                         width: 14rem;
                         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
                         position: absolute;
-                        right: 1px;
+                        right: 0px;
+                        top:45px;
                         text-align: right;
 
                         li.list-item {
@@ -365,7 +372,7 @@ div.navbar {
                             }
 
                             a.dropdown-item {
-
+                                font-size: 90%;
                                 i.jet-dropdown-arrow {
                                     transform: rotate(0deg);
                                 }
@@ -382,17 +389,24 @@ div.navbar {
                                     }
 
                                     a.dropdown-item {
+                                        font-size: 90%;
                                         i.jet-dropdown-arrow {
                                             transform: rotate(0deg);
                                         }
+
+                                        padding-right: .75rem;
                                     }
                                 }
                             }
 
                             a.dropdown-item {
+                                font-size: 90%;
                                 i.jet-dropdown-arrow {
                                     transform: rotate(0deg);
                                 }
+
+                                padding-right: .75rem;
+
                             }
                         }
 
@@ -415,7 +429,8 @@ div.navbar {
                     @media (max-width:991px) {
                         ul.dropdown-menu {
                             font-size: 93%;
-                            position: absolute;
+                            position: static;
+                            float: none;
                             top: 0px;
                             right: 6.9rem;
                             width: 11rem;
@@ -425,7 +440,7 @@ div.navbar {
 
 
                         ul#monitor {
-                            position: absolute;
+                            // position: absolute;
                             top: .7rem;
                             right: 5.3rem;
                             width: 10rem;
@@ -433,14 +448,14 @@ div.navbar {
                         }
 
                         ul#users {
-                            position: absolute;
+                            // position: absolute;
                             top: .7rem;
                             right: 4rem;
                             width: 10rem;
                         }
 
                         ul#namabar {
-                            position: absolute;
+                            // position: absolute;
                             top: .7rem;
                             right: 3.1rem;
                             width: 10rem;
@@ -448,14 +463,14 @@ div.navbar {
                         }
 
                         ul#charts {
-                            position: absolute;
+                            // position: absolute;
                             top: .7rem;
                             right: 4.4rem;
                             width: 10rem;
                         }
 
                         ul#reports {
-                            position: absolute;
+                            // position: absolute;
                             top: .7rem;
                             right: 4.9rem;
                             width: 10rem;
@@ -463,25 +478,32 @@ div.navbar {
                         }
 
                         ul#tel {
-                            position: absolute;
+                            // position: absolute;
                             top: .7rem;
                             right: 4.9rem;
                             width: 10rem;
                         }
 
                         ul#settings {
-                            position: absolute;
+                            // position: absolute;
                             top: .7rem;
                             right: 4.6rem;
                             width: 10rem;
                             font-size: 90%;
+                        }
+
+                        ul#sub-menu-0 {
+                            top: .7rem;
+                            position: static;
+                            float: none;
                         }
                     }
 
 
                     @media (max-width:485px) {
                         ul.dropdown-menu {
-                            position: absolute;
+                            position: static;
+                            float: none;
                             top: .7rem;
                             right: 4.9rem;
                             width: 10rem;
@@ -491,7 +513,6 @@ div.navbar {
                         }
 
                         ul#monitor {
-                            position: absolute;
                             top: .7rem;
                             right: 5.3rem;
                             width: 10rem;
@@ -499,7 +520,6 @@ div.navbar {
                         }
 
                         ul#users {
-                            position: absolute;
                             top: .7rem;
                             right: 4rem;
                             width: 10rem;
@@ -507,7 +527,6 @@ div.navbar {
                         }
 
                         ul#namabar {
-                            position: absolute;
                             top: .7rem;
                             right: 3.1rem;
                             width: 10rem;
@@ -515,12 +534,18 @@ div.navbar {
                         }
 
                         ul#charts {
-                            position: absolute;
                             top: .7rem;
                             right: 4.4rem;
                             width: 10rem;
                             font-size: 85%;
                         }
+
+                        ul#sub-menu-0 {
+                            top: .7rem;
+                            position: static;
+                            float: none;
+                        }
+
 
                     }
 
@@ -528,8 +553,13 @@ div.navbar {
                     a.nav-link {
                         color: #fff;
                         padding-top: .8rem;
-                        padding-bottom: 1rem;
+                        padding-bottom: .7rem;
                         cursor: pointer;
+                    }
+                }
+                li.nav-item.nav-end{
+                    a.nav-link{
+                        padding-bottom: .7rem;
                     }
                 }
 
@@ -540,14 +570,10 @@ div.navbar {
                     }
 
                     @media (max-width:992px) {
-                        i.jet-dropdown-arrow {
-                            transform: rotate(0deg);
-                        }
+
 
                         a.nav-link {
                             font-size: 90%;
-                            // background-color: transparent;
-
                         }
 
                     }
@@ -580,7 +606,7 @@ div.navbar {
 
         .navbar-nav {
             .nav-item {
-               
+
                 .nav-link {
                     color: #fff;
 
@@ -596,7 +622,7 @@ div.navbar {
                         // top: 2px;
                         display: flex;
                         align-items: flex-start;
-                      
+
 
                         @media(max-width: 1199px) {
                             display: none;

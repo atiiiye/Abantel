@@ -1,0 +1,65 @@
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  src: url(../fonts/IRANSansWeb/IRANSansWeb.eot);
+  src: url(../fonts/IRANSansWeb/IRANSansWeb.eot) format("embedded-opentype"), url(../fonts/IRANSansWeb/IRANSansWeb.woff2) format("woff2"), url(../fonts/IRANSansWeb/IRANSansWeb.woff) format("woff"), url(../fonts/IRANSansWeb/IRANSansWeb.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Samim;
+  font-style: normal;
+  src: url(../fonts/samim/Samim.eot);
+  src: url(../fonts/samim/Samim.eot) format("embedded-opentype"), url(../fonts/samim/Samim.woff2) format("woff2"), url(../fonts/samim/Samim.woff) format("woff"), url(../fonts/samim/Samim.ttf) format("truetype");
+}
+
+body {
+  font-size: 100%;
+  font-family: "IRANSans";
+}
+
+div.tree-selector div.container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+div.tree-selector div.container-fluid p.h5 {
+  padding: 1rem 1.5rem;
+}
+
+div.tree-selector div.container-fluid div.container.main-checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100vh;
+  width: 100%;
+}
+
+div.tree-selector div.container-fluid div.container.main-checkbox div.form-check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.tree-selector div.container-fluid div.container.main-checkbox div.form-check input.plus-minus {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  padding-right: 18px;
+  border-right: 1px solid #aaa;
+}
+/*# sourceMappingURL=selector.css.map */

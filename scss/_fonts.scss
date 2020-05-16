@@ -8,17 +8,6 @@
         url(../fonts/IRANSansWeb/IRANSansWeb.ttf) format("truetype");
 }
 
-
-@font-face {
-    font-family: Sahel;
-    font-style: normal;
-    src: url(../fonts/sahel/Sahel.eot);
-    src: url(../fonts/sahel/Sahel.eot) format("embedded-opentype"),
-        url(../fonts/sahel/Sahel.woff2)format("woff2"),
-        url(../fonts/sahel/Sahel.woff)format("woff"),
-        url(../fonts/sahel/Sahel.ttf) format("truetype");
-}
-
 @font-face {
     font-family: Samim;
     font-style: normal;
@@ -29,12 +18,3 @@
         url(../fonts/samim/Samim.ttf) format("truetype");
 }
 
-
-@font-face {
-    font-family: Vazir;
-    font-style: normal;
-    src: url(../fonts/Vazir/Vazir.eot);
-    src: url(../fonts/Vazir/Vazir.eot) format("embedded-opentype"),
-        url(../fonts/Vazir/Vazir.woff2)format("woff2"),
-        url(../fonts/Vazir/Vazir.woff)format("woff");
-}

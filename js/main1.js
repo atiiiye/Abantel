@@ -15,13 +15,13 @@ $(document).ready(function () {
 		$(this).parents('div.collapse').prev('div.hamburger-menu.navbar-toggler').addClass('collapsed');
 
 	})
-	$('li.list-item').on('click', function () {
-		$(this).parents('div.navbar-right').children('div.hamburger-menu.navbar-toggler').addClass('collapsed');
-	})
+	// $('li.list-item').on('click', function () {
+	// 	$(this).parents('div.navbar-right').children('div.hamburger-menu.navbar-toggler').addClass('collapsed');
+	// })
 
-	$('li.list-item').on('mouseenter', function () {
-		$(this).parents('div.navbar-right').children('div.hamburger-menu.navbar-toggler').addClass('collapsed');
-	})
+	// $('li.list-item').on('mouseenter', function () {
+	// 	$(this).parents('div.navbar-right').children('div.hamburger-menu.navbar-toggler').addClass('collapsed');
+	// })
 
 
 	$('li#list-item').on('click', function (e) {

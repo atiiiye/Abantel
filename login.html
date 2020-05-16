@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,45 +8,68 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./bootstrap/css/bootstrap-rtl.min.css">
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/login.css" />
 </head>
+
 <body>
 
-    <div class="container-fluid">
-        <div class="row ">
-            <div class="card">
-                <div class="card-body">
-                    <div class="card-title text-center">
-                        <p class="text-muted lead"> ورود به حساب کاربری</p>
-                        <img src="./img/logo3.png">
-                    </div>
-                    <form action="#" class="form2 needs-validation p-2" novalidate>
-                        <div class="col-lg-12">
-                            <label for="username">نام کاربری :</label>
-                            <input type="email" class="form-control mb-2" id="username"
-                                placeholder="" required>
-                            <div class="invalid-feedback">
-                               نام کاربری معتبر نمی باسد
-                            </div>
-                        </div>
-                        <div class="col-lg-12 mt-3">
-                            <label for="password">رمز عبور :</label>
-                            <input type="password" class="form-control" id="password" placeholder=""
-                                minlength="8" required>
-                            <div class="invalid-feedback">
-                                رمز عبور صحیح نمی باشد
-                            </div>
-                        </div>
-
-                        <div class="col-lg-12 mt-4 form-group">
-                            <button class="btn btn-primary btn-block" type="submit">ورود</button>
-                        </div>
-                    </form>
+    <div class="container px-0">
+        <div class="card col-10 col-md-6 col-lg-4">
+            <div class="card-body px-0">
+                <div class="card-title text-center">
+                    <p class="text-muted lead"> ورود به حساب کاربری</p>
+                    <img class="card-img-top" src="./img/logo3.png">
                 </div>
+                <form action="#" class="form-login needs-validation p-2" novalidate>
+                    <div class="form-fields col-10 col-lg-10">
+                        <label for="username">نام کاربری :</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="uk-form-icon uk-icon" uk-icon="icon: user"><svg width="20" height="20"
+                                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" ratio="1">
+                                        <circle fill="none" stroke="#000" stroke-width="1.1" cx="9.9" cy="6.4" r="4.4">
+                                        </circle>
+                                        <path fill="none" stroke="#000" stroke-width="1.1"
+                                            d="M1.5,19 C2.3,14.5 5.8,11.2 10,11.2 C14.2,11.2 17.7,14.6 18.5,19.2">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+                            <input type="text" class="form-control mb-2" id="username" placeholder="" required>
+                        </div>
+                        <div class="invalid-feedback">
+                            لطفا نام کابری را وارد کنید
+                        </div>
+                    </div>
+                    <div class="form-fields col-10 col-lg-10">
+                        <label for="password">رمز عبور :</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="uk-form-icon uk-icon" uk-icon="icon: lock">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"
+                                        ratio="1">
+                                        <rect fill="none" stroke="#000" height="10" width="13" y="8.5" x="3.5"></rect>
+                                        <path fill="none" stroke="#000"
+                                            d="M6.5,8 L6.5,4.88 C6.5,3.01 8.07,1.5 10,1.5 C11.93,1.5 13.5,3.01 13.5,4.88 L13.5,8">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+                            <input type="password" class="form-control" id="password" placeholder="" required>
+                        </div>
+                        <div class="invalid-feedback">
+                            لطفا رمز عبور خود را وارد کنید
+                        </div>
+                    </div>
+
+                    <div class="col-10 col-lg-10 mt-4 form-group">
+                        <button class="btn btn-info btn-lg btn-block" id="submit" type="submit">ورود</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
-    
+
 
 
 
@@ -53,6 +77,67 @@
     <script src="bootstrap/js/jquery.min.js"></script>
     <script src="bootstrap/js/popper.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script>
+        (function () {
+            window.addEventListener('load', function () {
+                $('#submit').on('click', function (e) {
+                    var userData = {
+                        username: $('#username').val(),
+                        password: $('#password').val()
+                    }
+
+                    var isFilledFiled = isFilled(userData);
+                    if (!isFilledFiled) {
+                        $('input').css('borderColor', '#dc3545');
+                        $(".invalid-feedback").css("display", "block");
+                        return;
+                    } else {
+                        $('input').css('borderColor', '#28a745');
+                        $(".invalid-feedback").css("display", "none");
+
+                    }
+
+                    // e.preventDefault();
+                })
+
+                function isFilled(userData) {
+                    var valid = true;
+                    var username = userData.username;
+                    var password = userData.password;
+                    if (username == "") {
+                        valid = false;
+                    }else{
+                        valid=true;
+                    }
+                    
+                    if (password == "") {
+                        valid = false;
+                    }else{
+                        valid=true;
+                    }
+                    return valid;
+
+
+
+                }
+            });
+            // window.addEventListener('load', function () {
+            //     // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            //     var forms = document.getElementsByClassName('needs-validation');
+            //     // Loop over them and prevent submission
+            //     var validation = Array.prototype.filter.call(forms, function (form) {
+            //         form.addEventListener('submit', function (event) {
+            //             if (form.checkValidity() === false) {
+            //                 event.preventDefault();
+            //                 event.stopPropagation();
+            //             }
+            //             form.classList.add('was-validated');
+            //         }, false);
+            //     });
+            // }, false);
+        })();
+    </script>
 
 </body>
+
 </html>
