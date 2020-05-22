@@ -250,4 +250,128 @@ div.tree-selector div.container-fluid ul.container.main-checkbox li.row.list-ite
           justify-content: flex-start;
   width: 100%;
 }
+
+div.tree-selector div.container-fluid ul.container.main-checkbox li.row.list-item ul#level-2 li ul#level-3 {
+  padding: 0;
+  border: none;
+  margin-bottom: .4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  right: 2rem;
+  top: .1rem;
+  width: 100%;
+}
+
+div.tree-selector div.container-fluid ul.container.main-checkbox li.row.list-item ul#level-2 li ul#level-3 li {
+  padding-right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+div.tree-selector div.container-fluid ul.container.main-checkbox li.row.list-item ul#level-2 li ul#level-3 li:hover {
+  background-color: transparent;
+}
+
+div.tree-selector div.container-fluid ul.container.main-checkbox li.row.list-item ul#level-2 li ul#level-3 li:active {
+  background-color: transparent;
+  outline: none;
+}
+
+div.tree-selector div.container-fluid ul.container.main-checkbox li.row.list-item ul#level-2 li ul#level-3 li div.form-check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+div.tree-selector div.container-fluid ul.container.main-checkbox li.row.list-item ul#level-2 li ul#level-3 li div.form-check label.form-check-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+}
+
+div.tree-selector div.container-fluid ul.container.main-checkbox li.row.list-item ul#level-2 li ul#level-3 li ul#level-4 {
+  padding: 0;
+  border: none;
+  margin-bottom: .4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  right: 2rem;
+  top: .1rem;
+  width: 100%;
+}
+
+div.tree-selector div.container-fluid ul.container.main-checkbox li.row.list-item ul#level-2 li ul#level-3 li ul#level-4 li {
+  padding-right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+div.tree-selector div.container-fluid ul.container.main-checkbox li.row.list-item ul#level-2 li ul#level-3 li ul#level-4 li:hover {
+  background-color: transparent;
+}
+
+div.tree-selector div.container-fluid ul.container.main-checkbox li.row.list-item ul#level-2 li ul#level-3 li ul#level-4 li:active {
+  background-color: transparent;
+  outline: none;
+}
+
+div.tree-selector div.container-fluid ul.container.main-checkbox li.row.list-item ul#level-2 li ul#level-3 li ul#level-4 li div.form-check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+div.tree-selector div.container-fluid ul.container.main-checkbox li.row.list-item ul#level-2 li ul#level-3 li ul#level-4 li div.form-check label.form-check-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+}
 /*# sourceMappingURL=selector.css.map */

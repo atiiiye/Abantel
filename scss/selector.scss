@@ -20,6 +20,7 @@ div.tree-selector {
             li.row.list-item {
                 width: 20%;
                 height: min-content;
+
                 span.ti-angle-left {
                     display: flex;
                     align-items: center;
@@ -44,7 +45,6 @@ div.tree-selector {
                         position: absolute;
                         margin-right: 0;
                         cursor: pointer;
-
                     }
 
                     input.plus-minus:checked+label.form-check-label span {
@@ -52,11 +52,12 @@ div.tree-selector {
                         border-color: #07f;
                         animation: wave 0.4s ease;
                     }
-                    input.plus-minus:checked+label.form-check-label span:first-child svg{
+
+                    input.plus-minus:checked+label.form-check-label span:first-child svg {
                         stroke-dashoffset: 0;
                     }
 
-                    input.plus-minus:checked span.ti-angle-left{
+                    input.plus-minus:checked span.ti-angle-left {
                         transform: rotate(-90deg);
                     }
 
@@ -112,13 +113,13 @@ div.tree-selector {
                             }
 
                             svg.inline-svg {
-                        
+
                                 position: absolute;
                                 width: 0;
                                 height: 0;
                                 pointer-events: none;
                                 user-select: none;
-                              }
+                            }
                         }
 
                         a.label-link {
@@ -129,13 +130,13 @@ div.tree-selector {
                             outline: none;
                             padding-left: 8px;
                             line-height: 18px;
-    
+
                         }
-                       
-                    } 
+
+                    }
                 }
 
-                ul#level-2{
+                ul#level-2 {
                     padding: 0;
                     border: none;
                     margin-bottom: .4rem;
@@ -147,47 +148,156 @@ div.tree-selector {
                     right: 2rem;
                     top: .1rem;
                     width: 100%;
-                  
 
-                    li{
+
+                    li {
                         padding-right: 0;
                         display: flex;
                         flex-direction: column;
                         justify-content: flex-start;
                         // width: 172px;
 
-                        &:hover{
+                        &:hover {
                             background-color: transparent;
 
                         }
-                        &:active{
+
+                        &:active {
                             background-color: transparent;
                             outline: none;
                         }
 
-                        div.form-check{
+                        div.form-check {
                             display: flex;
                             justify-content: flex-start;
-                            input.plus-minus.form-check-input{ }
 
-                            label.form-check-label{
+                            input.plus-minus.form-check-input {}
+
+                            label.form-check-label {
                                 display: flex;
                                 justify-content: flex-start;
                                 width: 100%;
-                                span{
-                                    svg.check-mark{
 
-                                    }
-                                    svg.inline-svg{
-                                        symbol{
+                                span {
+                                    svg.check-mark {}
 
-                                        }
+                                    svg.inline-svg {
+                                        symbol {}
                                     }
                                 }
-                                a.label-link{
 
+                                a.label-link {}
+                            }
+                        }
+
+                        ul#level-3 {
+                            padding: 0;
+                            border: none;
+                            margin-bottom: .4rem;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            // align-items: center;
+                            position: relative;
+                            right: 2rem;
+                            top: .1rem;
+                            width: 100%;
+
+                            li {
+                                padding-right: 0;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: flex-start;
+        
+                                &:hover {
+                                    background-color: transparent;
+        
+                                }
+        
+                                &:active {
+                                    background-color: transparent;
+                                    outline: none;
+                                }
+
+                                div.form-check {
+                                    display: flex;
+                                    justify-content: flex-start;
+        
+                                    input.plus-minus.form-check-input {}
+        
+                                    label.form-check-label {
+                                        display: flex;
+                                        justify-content: flex-start;
+                                        width: 100%;
+        
+                                        span {
+                                            svg.check-mark {}
+        
+                                            svg.inline-svg {
+                                                symbol {}
+                                            }
+                                        }
+        
+                                        a.label-link {}
+                                    }
+                                }
+
+                                ul#level-4 {
+                                    padding: 0;
+                                    border: none;
+                                    margin-bottom: .4rem;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    position: relative;
+                                    right: 2rem;
+                                    top: .1rem;
+                                    width: 100%;
+
+                                    li{
+                                        
+                                padding-right: 0;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: flex-start;
+        
+                                &:hover {
+                                    background-color: transparent;
+        
+                                }
+        
+                                &:active {
+                                    background-color: transparent;
+                                    outline: none;
+                                }
+
+                                div.form-check {
+                                    display: flex;
+                                    justify-content: flex-start;
+        
+                                    input.plus-minus.form-check-input {}
+        
+                                    label.form-check-label {
+                                        display: flex;
+                                        justify-content: flex-start;
+                                        width: 100%;
+        
+                                        span {
+                                            svg.check-mark {}
+        
+                                            svg.inline-svg {
+                                                symbol {}
+                                            }
+                                        }
+        
+                                        a.label-link {}
+                                    }
+                                }
+                                    }
                                 }
                             }
+
+
                         }
 
                     }
