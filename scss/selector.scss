@@ -13,17 +13,19 @@ div.tree-selector {
         ul.container.main-checkbox {
             display: flex;
             flex-direction: column;
-            // justify-content: space-between;
             height: 100vh;
             width: 100%;
             padding: 0;
 
-            li.row {
+            li.row.list-item {
+                width: 20%;
+                height: min-content;
                 span.ti-angle-left {
                     display: flex;
                     align-items: center;
                     font-weight: 900;
                     font-size: 80%;
+                    height: 30px;
                 }
 
                 span.ti-angle-left.rotate {
@@ -34,10 +36,13 @@ div.tree-selector {
                 div.form-check {
                     display: flex;
                     padding-right: 0;
+                    height: fit-content;
+                    // width: 70%;
 
                     input.plus-minus {
                         opacity: 0;
                         position: absolute;
+                        margin-right: 0;
                         cursor: pointer;
 
                     }
@@ -70,11 +75,12 @@ div.tree-selector {
                         transition: all 0.2s ease;
                         margin-right: 6px;
                         display: flex;
-                        align-items: center;
+                        justify-content: center;
+                        // width: 100%;
 
-                        &:hover span:first-child {
-                            border-color: #07f;
-                        }
+                        // &:hover span:first-child {
+                        //     border-color: #07f;
+                        // }
 
                         span {
                             float: right;
@@ -126,11 +132,66 @@ div.tree-selector {
     
                         }
                        
+                    } 
+                }
+
+                ul#level-2{
+                    padding: 0;
+                    border: none;
+                    margin-bottom: .4rem;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    // align-items: center;
+                    position: relative;
+                    right: 2rem;
+                    top: .1rem;
+                    width: 100%;
+                  
+
+                    li{
+                        padding-right: 0;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        // width: 172px;
+
+                        &:hover{
+                            background-color: transparent;
+
+                        }
+                        &:active{
+                            background-color: transparent;
+                            outline: none;
+                        }
+
+                        div.form-check{
+                            display: flex;
+                            justify-content: flex-start;
+                            input.plus-minus.form-check-input{ }
+
+                            label.form-check-label{
+                                display: flex;
+                                justify-content: flex-start;
+                                width: 100%;
+                                span{
+                                    svg.check-mark{
+
+                                    }
+                                    svg.inline-svg{
+                                        symbol{
+
+                                        }
+                                    }
+                                }
+                                a.label-link{
+
+                                }
+                            }
+                        }
+
                     }
 
-                
-
-                  
                 }
             }
 
