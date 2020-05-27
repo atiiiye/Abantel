@@ -44,7 +44,7 @@ body {
   ul.container-fluid.main-checkbox li.row.list-item div.form-check label.form-check-label {
     padding: 5px 2px;
   }
-  ul.container-fluid.main-checkbox li.row.list-item div.form-check label.form-check-label span {
+  ul.container-fluid.main-checkbox li.row.list-item div.form-check label.form-check-label span.my-checkbox {
     width: 16px;
     height: 16px;
   }
@@ -57,34 +57,45 @@ body {
     top: .05rem;
     width: 100%;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item {
     padding-right: 0;
     width: 100%;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list div.form-check label.form-check-label {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item div.form-check label.form-check-label {
     width: 110%;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 {
     right: 1.9rem;
     top: .05rem;
     width: 100%;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item {
     padding-right: 0;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list div.form-check label.form-check-label {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item div.form-check label.form-check-label {
     width: 100%;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list ul#level-4 {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 {
     right: 1.9rem;
     top: .05rem;
     width: 100%;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list ul#level-4 li.item-list {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.sub-item {
     padding-right: 0;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list ul#level-4 li.item-list div.form-check label.form-check-label {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.sub-item div.form-check label.form-check-label {
     width: 100%;
+  }
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.item-list {
+    padding-right: 0;
+    width: 110%;
+  }
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.item-list {
+    padding-right: 0;
+  }
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list {
+    padding-right: 0;
+    width: 110%;
   }
 }
 
@@ -119,7 +130,7 @@ body {
   ul.container-fluid.main-checkbox li.row.list-item div.form-check label.form-check-label {
     padding: 5px 2px;
   }
-  ul.container-fluid.main-checkbox li.row.list-item div.form-check label.form-check-label span {
+  ul.container-fluid.main-checkbox li.row.list-item div.form-check label.form-check-label span.my-checkbox {
     width: 16px !important;
     height: 16px !important;
   }
@@ -132,37 +143,44 @@ body {
     top: .05rem;
     width: 110%;
   }
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item {
+    padding-right: 0;
+    width: 110%;
+  }
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item div.form-check {
+    width: 110%;
+  }
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item div.form-check label.form-check-label {
+    width: 100%;
+  }
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 {
+    right: 1.9rem;
+    top: .05rem;
+    width: 100%;
+  }
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item {
+    padding-right: 0;
+  }
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item div.form-check label.form-check-label {
+    width: 100%;
+  }
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 {
+    right: 1.9rem;
+    top: .05rem;
+    width: 100%;
+  }
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.sub-item {
+    padding-right: 0;
+  }
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.sub-item div.form-check label.form-check-label {
+    width: 100%;
+  }
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.item-list {
+    width: 130%;
+  }
   ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list {
     padding-right: 0;
     width: 110%;
-  }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list div.form-check {
-    width: 110%;
-  }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list div.form-check label.form-check-label {
-    width: 100%;
-  }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 {
-    right: 1.9rem;
-    top: .05rem;
-    width: 100%;
-  }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list {
-    padding-right: 0;
-  }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list div.form-check label.form-check-label {
-    width: 100%;
-  }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list ul#level-4 {
-    right: 1.9rem;
-    top: .05rem;
-    width: 100%;
-  }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list ul#level-4 li.item-list {
-    padding-right: 0;
-  }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list ul#level-4 li.item-list div.form-check label.form-check-label {
-    width: 100%;
   }
 }
 
@@ -199,7 +217,7 @@ body {
   ul.container-fluid.main-checkbox li.row.list-item div.form-check label.form-check-label {
     padding: 5px 2px;
   }
-  ul.container-fluid.main-checkbox li.row.list-item div.form-check label.form-check-label span {
+  ul.container-fluid.main-checkbox li.row.list-item div.form-check label.form-check-label span.my-checkbox {
     width: 16px;
     height: 16px;
   }
@@ -212,49 +230,49 @@ body {
     top: .05rem;
     width: 118% !important;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item {
     padding-right: 0;
     width: 118% !important;
     margin-right: 0 !important;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list div.form-check {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item div.form-check {
     width: 110%;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list div.form-check label.form-check-label {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item div.form-check label.form-check-label {
     width: 100%;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list div.form-check label.form-check-label a.label-link {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item div.form-check label.form-check-label a.label-link {
     padding-left: 0;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 {
     right: 1.9rem;
     top: .05rem;
     width: 100%;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item {
     margin-right: 0 !important;
     padding-right: 0;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list div.form-check label.form-check-label {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item div.form-check label.form-check-label {
     width: 100%;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list ul#level-4 {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 {
     right: 1.9rem;
     top: .05rem;
     width: 100%;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list ul#level-4 li.item-list {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.sub-item {
     margin-right: 0 !important;
     padding-right: 0;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list ul#level-4 li.item-list div.form-check label.form-check-label {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.sub-item div.form-check label.form-check-label {
     width: 100%;
   }
 }
 
 @media (max-width: 475px) {
   body {
-    font-size: 85%;
+    font-size: 83%;
   }
   p.h5 {
     padding: .8rem 1rem !important;
@@ -285,11 +303,11 @@ body {
   ul.container-fluid.main-checkbox li.row.list-item div.form-check label.form-check-label {
     padding: 5px 2px;
   }
-  ul.container-fluid.main-checkbox li.row.list-item div.form-check label.form-check-label span {
+  ul.container-fluid.main-checkbox li.row.list-item div.form-check label.form-check-label span.my-checkbox {
     width: 15px !important;
     height: 15px !important;
   }
-  ul.container-fluid.main-checkbox li.row.list-item div.form-check label.form-check-label span svg.check-mark {
+  ul.container-fluid.main-checkbox li.row.list-item div.form-check label.form-check-label span.my-checkbox svg.check-mark {
     width: 10px !important;
     height: 9px !important;
     top: 2px !important;
@@ -304,49 +322,62 @@ body {
     top: .05rem;
     width: 120% !important;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item {
     padding-right: 0;
     width: 120% !important;
     margin-right: 0 !important;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list div.form-check {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item div.form-check {
     width: 110%;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list div.form-check label.form-check-label {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item div.form-check label.form-check-label {
     width: 100%;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list div.form-check label.form-check-label a.label-link {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item div.form-check label.form-check-label a.label-link {
     padding-left: 0;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 {
     right: 1.7rem !important;
     top: .05rem;
     width: 100%;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item {
     margin-right: 0 !important;
     padding-right: 0;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list div.form-check label.form-check-label {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item div.form-check label.form-check-label {
     width: 100%;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list ul#level-4 {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 {
     right: 1.7rem !important;
     top: .05rem;
     width: 100%;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list ul#level-4 li.item-list {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.sub-item {
     margin-right: 0 !important;
     padding-right: 0;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list ul#level-4 li.item-list div.form-check label.form-check-label {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.sub-item div.form-check label.form-check-label {
     width: 100%;
+  }
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.item-list {
+    margin-right: 0 !important;
+    padding-right: 0.9rem !important;
+  }
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.item-list {
+    margin-right: 0 !important;
+    padding-right: 0.9rem !important;
+  }
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list {
+    width: 130%;
+    margin-right: 0 !important;
+    padding-right: 0.9rem !important;
   }
 }
 
 @media (max-width: 440px) {
   body {
-    font-size: 83%;
+    font-size: 82%;
   }
   p.h5 {
     padding: .8rem 1rem !important;
@@ -377,11 +408,11 @@ body {
   ul.container-fluid.main-checkbox li.row.list-item div.form-check label.form-check-label {
     padding: 5px 2px;
   }
-  ul.container-fluid.main-checkbox li.row.list-item div.form-check label.form-check-label span {
+  ul.container-fluid.main-checkbox li.row.list-item div.form-check label.form-check-label span.my-checkbox {
     width: 15px !important;
     height: 15px !important;
   }
-  ul.container-fluid.main-checkbox li.row.list-item div.form-check label.form-check-label span svg.check-mark {
+  ul.container-fluid.main-checkbox li.row.list-item div.form-check label.form-check-label span.my-checkbox svg.check-mark {
     width: 10px !important;
     height: 9px !important;
     top: 2px !important;
@@ -396,53 +427,55 @@ body {
     top: .05rem;
     width: 130% !important;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item {
     width: 120% !important;
     margin-right: 0 !important;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list div.form-check {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item div.form-check {
     width: 120%;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list div.form-check label.form-check-label {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item div.form-check label.form-check-label {
     width: 100%;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list div.form-check label.form-check-label a.label-link {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item div.form-check label.form-check-label a.label-link {
     padding-left: 0;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 {
     right: 1.3rem !important;
     top: .05rem;
     width: 100%;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item {
     margin-right: 0 !important;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list div.form-check label.form-check-label {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item div.form-check label.form-check-label {
     width: 100%;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list ul#level-4 {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 {
     right: 1.3rem !important;
     top: .05rem;
     width: 100%;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list ul#level-4 li.item-list {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.sub-item {
     margin-right: 0 !important;
     padding-right: 0;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list ul#level-4 li.item-list div.form-check label.form-check-label {
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.sub-item div.form-check label.form-check-label {
     width: 100%;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list ul#level-4 li.mr-1.pr-3 {
-    margin-right: .6rem !important;
-    padding-right: .2rem !important;
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.mr-1.pr-3 {
+    margin-right: 0 !important;
+    padding-right: 0.9rem !important;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.mr-1.pr-3 {
-    margin-right: .6rem !important;
-    padding-right: .2rem !important;
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.item-list {
+    width: 130%;
+    margin-right: 0 !important;
+    padding-right: 0.9rem !important;
   }
-  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.mr-1.pr-3 {
-    margin-right: .6rem !important;
-    padding-right: .2rem !important;
+  ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list {
+    width: 130%;
+    margin-right: 0 !important;
+    padding-right: 0.9rem !important;
   }
 }
 
@@ -564,7 +597,7 @@ div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.li
           justify-content: center;
 }
 
-div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item div.form-check label.form-check-label span {
+div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item div.form-check label.form-check-label span.my-checkbox {
   float: right;
   vertical-align: middle;
   -webkit-transform: translate3d(0, 0, 0);
@@ -582,7 +615,7 @@ div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.li
           box-shadow: 0 1px 1px rgba(0, 16, 75, 0.05);
 }
 
-div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item div.form-check label.form-check-label span svg.check-mark {
+div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item div.form-check label.form-check-label span.my-checkbox svg.check-mark {
   position: absolute;
   width: 12px;
   height: 10px;
@@ -603,7 +636,7 @@ div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.li
           transform: translate3d(0, 0, 0);
 }
 
-div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item div.form-check label.form-check-label span svg.inline-svg {
+div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item div.form-check label.form-check-label span.my-checkbox svg.inline-svg {
   position: absolute;
   width: 0;
   height: 0;
@@ -644,7 +677,7 @@ div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.li
   width: 100%;
 }
 
-div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list {
+div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item {
   padding-right: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -659,16 +692,16 @@ div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.li
   width: 110%;
 }
 
-div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list:hover {
+div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item:hover {
   background-color: transparent;
 }
 
-div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list:active {
+div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item:active {
   background-color: transparent;
   outline: none;
 }
 
-div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list div.form-check {
+div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item div.form-check {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -677,7 +710,7 @@ div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.li
           justify-content: flex-start;
 }
 
-div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list div.form-check label.form-check-label {
+div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item div.form-check label.form-check-label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -687,7 +720,7 @@ div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.li
   width: 100%;
 }
 
-div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 {
+div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 {
   padding: 0;
   border: none;
   margin-bottom: .3rem;
@@ -707,7 +740,7 @@ div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.li
   width: 100%;
 }
 
-div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list {
+div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item {
   padding-right: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -721,16 +754,16 @@ div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.li
           justify-content: flex-start;
 }
 
-div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list:hover {
+div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item:hover {
   background-color: transparent;
 }
 
-div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list:active {
+div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item:active {
   background-color: transparent;
   outline: none;
 }
 
-div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list div.form-check {
+div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item div.form-check {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -739,7 +772,7 @@ div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.li
           justify-content: flex-start;
 }
 
-div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list div.form-check label.form-check-label {
+div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item div.form-check label.form-check-label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -749,7 +782,7 @@ div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.li
   width: 100%;
 }
 
-div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list ul#level-4 {
+div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 {
   padding: 0;
   border: none;
   margin-bottom: .4rem;
@@ -769,7 +802,7 @@ div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.li
   width: 100%;
 }
 
-div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list ul#level-4 li.item-list {
+div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.sub-item {
   padding-right: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -783,16 +816,16 @@ div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.li
           justify-content: flex-start;
 }
 
-div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list ul#level-4 li.item-list:hover {
+div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.sub-item:hover {
   background-color: transparent;
 }
 
-div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list ul#level-4 li.item-list:active {
+div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.sub-item:active {
   background-color: transparent;
   outline: none;
 }
 
-div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list ul#level-4 li.item-list div.form-check {
+div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.sub-item div.form-check {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -801,7 +834,7 @@ div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.li
           justify-content: flex-start;
 }
 
-div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.item-list ul#level-3 li.item-list ul#level-4 li.item-list div.form-check label.form-check-label {
+div.tree-selector div.container-fluid ul.container-fluid.main-checkbox li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.sub-item div.form-check label.form-check-label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

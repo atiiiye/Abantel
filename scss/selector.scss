@@ -85,7 +85,7 @@ div.tree-selector {
                         justify-content: center;
                         // width: 100%;
 
-                        span {
+                        span.my-checkbox {
                             float: right;
                             vertical-align: middle;
                             transform: translate3d(0, 0, 0);
@@ -154,7 +154,7 @@ div.tree-selector {
                     width: 100%;
 
 
-                    li.item-list {
+                    li.sub-item {
                         padding-right: 0;
                         display: flex;
                         flex-direction: column;
@@ -182,7 +182,7 @@ div.tree-selector {
                                 justify-content: flex-start;
                                 width: 100%;
 
-                                span {
+                                span.my-checkbox {
                                     svg.check-mark {}
 
                                     svg.inline-svg {
@@ -207,7 +207,7 @@ div.tree-selector {
                             top: .1rem;
                             width: 100%;
 
-                            li.item-list {
+                            li.sub-item {
                                 padding-right: 0;
                                 display: flex;
                                 flex-direction: column;
@@ -234,7 +234,7 @@ div.tree-selector {
                                         justify-content: flex-start;
                                         width: 100%;
 
-                                        span {
+                                        span.my-checkbox {
                                             svg.check-mark {}
 
                                             svg.inline-svg {
@@ -258,7 +258,7 @@ div.tree-selector {
                                     top: .05rem;
                                     width: 100%;
 
-                                    li.item-list {
+                                    li.sub-item {
 
                                         padding-right: 0;
                                         display: flex;
@@ -286,7 +286,7 @@ div.tree-selector {
                                                 justify-content: flex-start;
                                                 width: 100%;
 
-                                                span {
+                                                span.my-checkbox {
                                                     svg.check-mark {}
 
                                                     svg.inline-svg {
