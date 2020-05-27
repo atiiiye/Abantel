@@ -1,0 +1,542 @@
+
+@media(max-width:991px) {
+    body{
+        font-size: 88%;
+    }
+
+    p.h5 {
+        padding: 1rem 1.2rem;
+        font-size: 1rem;
+    }
+
+    ul.container-fluid.main-checkbox {
+        width: 95%;
+        padding: 0;
+        margin-right: 5%;
+        margin-left: 0;
+        li.row.list-item{
+            width: 35%;
+            span.ti-angle-left {
+
+            }
+            div.form-check {
+
+                
+                input.plus-minus {
+                    position: absolute;
+                    margin-right: 0;
+                    right: 15px;
+                    top: 8px;
+                    margin-top: 0
+                }
+                
+                label.form-check-label{
+                    padding: 5px 2px;
+                    span{
+                        width: 16px;
+                        height: 16px;
+                        svg.check-mark{
+
+                        }
+                    }
+                    a.label-link{
+                        padding-left: 0;
+
+                    }
+                }
+            }
+
+            ul#level-2 {
+                margin-bottom: .3rem;
+                right: 1.9rem;
+                top: .05rem;
+                width: 100%;
+                li.item-list{
+                    padding-right: 0;
+                    width: 100%;
+                    div.form-check {
+                        label.form-check-label{
+                            width: 110%;
+                            a.label-link {}
+                        }
+                    }
+                    ul#level-3{
+                        right: 1.9rem;
+                        top: .05rem;
+                        width: 100%;
+                        li.item-list{
+                            padding-right: 0;
+                            div.form-check{
+                                label.form-check-label {
+                                    width: 100%;
+                                    a.label-link {}
+                                }
+                            }
+                            ul#level-4 {
+                                right: 1.9rem;
+                                top: .05rem;
+                                width: 100%;
+                                li.item-list{
+                                    padding-right: 0;
+                                    div.form-check{
+                                        label.form-check-label{
+                                            width: 100%;
+                                            a.label-link {}
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+
+
+}
+
+@media(max-width:690px) {
+    body{
+        font-size: 87%;
+    }
+
+    p.h5 {
+        padding: .9rem 1.1rem !important;
+        font-size: .95rem;
+    }
+
+    ul.container-fluid.main-checkbox {
+        width: 96%;
+        padding: 0;
+        margin-right: 4%;
+        margin-left: 0;
+        li.row.list-item{
+            width: 40%;
+            span.ti-angle-left {
+                font-weight: 800;
+                    font-size: 78%;
+            }
+            div.form-check {
+
+                input.plus-minus {
+                    position: absolute;
+                    margin-right: 0;
+                    right: 15px;
+                    top: 8px;
+                    margin-top: 0
+                }
+                
+                label.form-check-label{
+                    padding: 5px 2px;
+                    span{
+                        width: 16px !important;
+                        height: 16px !important;
+                        svg.check-mark{
+
+                        }
+                    }
+                    a.label-link{
+                        padding-left: 0;
+
+                    }
+                }
+            }
+
+            ul#level-2 {
+                margin-bottom: .3rem;
+                right: 1.9rem;
+                top: .05rem;
+                width: 110%;
+                li.item-list{
+                    padding-right: 0;
+                    width: 110%;
+                    div.form-check {
+                        width: 110%;
+                        label.form-check-label{
+                            width: 100%;
+                            a.label-link {}
+                        }
+                    }
+                    ul#level-3{
+                        right: 1.9rem;
+                        top: .05rem;
+                        width: 100%;
+                        li.item-list{
+                            padding-right: 0;
+                            div.form-check{
+                                label.form-check-label {
+                                    width: 100%;
+                                    a.label-link {}
+                                }
+                            }
+                            ul#level-4 {
+                                right: 1.9rem;
+                                top: .05rem;
+                                width: 100%;
+                                li.item-list{
+                                    padding-right: 0;
+                                    div.form-check{
+                                        label.form-check-label{
+                                            width: 100%;
+                                            a.label-link {}
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+
+
+}
+
+@media(max-width:550px) {
+    body{
+        font-size: 85.2%;
+    }
+
+    p.h5 {
+        padding: .8rem 1rem !important;
+        font-size: .88rem;
+        margin-bottom: .35rem;
+    }
+
+    ul.container-fluid.main-checkbox {
+        width: 93%;
+        padding: 0;
+        margin-right: 7%;
+        margin-left: 0;
+        li.row.list-item{
+            width: 50% ;
+            span.ti-angle-left {
+                font-size: 75% !important;
+                height: 29px !important;
+                margin-left: 5px !important;
+            }
+            div.form-check {
+
+                input.plus-minus {
+                    position: absolute;
+                    margin-right: 0;
+                    right: 15px;
+                    top: 8px;
+                    margin-top: 0
+                }
+                
+                label.form-check-label{
+                    padding: 5px 2px;
+                    span{
+                        width: 16px;
+                        height: 16px;
+                        svg.check-mark{
+
+                        }
+                    }
+                    a.label-link{
+                        padding-left: 0;
+
+                    }
+                }
+            }
+
+            ul#level-2 {
+                margin-bottom: .3rem;
+                right: 1.9rem;
+                top: .05rem;
+                width: 118% !important;
+                li.item-list{
+                    padding-right: 0;
+                    width: 118% !important;
+                    margin-right: 0 !important;
+                    div.form-check {
+                        width: 110%;
+                        label.form-check-label{
+                            width: 100%;
+                            a.label-link {
+                                padding-left: 0;
+                            }
+                        }
+                    }
+                    ul#level-3{
+                        right: 1.9rem;
+                        top: .05rem;
+                        width: 100%;
+                        li.item-list{
+                            margin-right: 0 !important;
+                            padding-right: 0;
+                            div.form-check{
+                                label.form-check-label {
+                                    width: 100%;
+                                    a.label-link {}
+                                }
+                            }
+                            ul#level-4 {
+                                right: 1.9rem;
+                                top: .05rem;
+                                width: 100%;
+                                li.item-list{
+                                    margin-right: 0 !important;
+                                    padding-right: 0;
+                                    div.form-check{
+                                        label.form-check-label{
+                                            width: 100%;
+                                            a.label-link {}
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+
+
+}
+
+@media(max-width:475px) {
+    body{
+        font-size: 85%;
+    }
+
+    p.h5 {
+        padding: .8rem 1rem !important;
+        font-size: .85rem;
+        margin-bottom: .33rem;
+    }
+
+    ul.container-fluid.main-checkbox {
+        width: 93%;
+        padding: 0 1rem 0 0 !important;
+        margin-right: 7%;
+        margin-left: 0;
+        li.row.list-item{
+            width: 50%;
+            span.ti-angle-left {
+                font-size: 75% !important;
+                height: 29px !important;
+                margin-left: 5px !important;
+            }
+            div.form-check {
+
+                input.plus-minus {
+                    position: absolute;
+                    margin-right: 0;
+                    right: 15px;
+                    top: 8px;
+                    margin-top: 0
+                }
+                
+                label.form-check-label{
+                    padding: 5px 2px;
+                    span{
+                        width: 15px !important;
+                        height: 15px !important;
+                        svg.check-mark{
+                            width: 10px !important;
+                            height: 9px !important;
+                            top: 2px !important;
+                            left: 2px;
+
+                        }
+
+                    }
+                    a.label-link{
+                        padding-left: 0;
+
+                    }
+                }
+            }
+
+            ul#level-2 {
+                margin-bottom: .3rem;
+                right: 1.7rem !important;
+                top: .05rem;
+                width: 120% !important;
+                li.item-list{
+                    padding-right: 0;
+                    width: 120% !important;
+                    margin-right: 0 !important;
+                    div.form-check {
+                        width: 110%;
+                        label.form-check-label{
+                            width: 100%;
+                            a.label-link {
+                                padding-left: 0;
+                            }
+                        }
+                    }
+                    ul#level-3{
+                        right: 1.7rem !important;
+                        top: .05rem;
+                        width: 100%;
+                        li.item-list{
+                            margin-right: 0 !important;
+                            padding-right: 0;
+                            div.form-check{
+                                label.form-check-label {
+                                    width: 100%;
+                                    a.label-link {}
+                                }
+                            }
+                            ul#level-4 {
+                                right: 1.7rem !important;
+                                top: .05rem;
+                                width: 100%;
+                                li.item-list{
+                                    margin-right: 0 !important;
+                                    padding-right: 0;
+                                    div.form-check{
+                                        label.form-check-label{
+                                            width: 100%;
+                                            a.label-link {}
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+
+
+}
+
+@media(max-width:440px) {
+    body{
+        font-size: 83%;
+    }
+
+    p.h5 {
+        padding: .8rem 1rem !important;
+        font-size: .8rem;
+        margin-bottom: .31rem;
+    }
+
+    ul.container-fluid.main-checkbox {
+        width: 93%;
+        padding: 0;
+        margin-right: 7%;
+        margin-left: 0;
+        li.row.list-item{
+            width: 80% !important;
+            span.ti-angle-left {
+                font-size: 74% !important;
+                height: 29px !important;
+                margin-left: 4px !important;
+            }
+            div.form-check {
+
+                input.plus-minus {
+                    position: absolute;
+                    margin-right: 0;
+                    right: 15px;
+                    top: 8px;
+                    margin-top: 0
+                }
+                
+                label.form-check-label{
+                    padding: 5px 2px;
+                    span{
+                        width: 15px !important;
+                        height: 15px !important;
+                        svg.check-mark{
+                            width: 10px !important;
+                            height: 9px !important;
+                            top: 2px !important;
+                            left: 2px;
+
+                        }
+
+                    }
+                    a.label-link{
+                        padding-left: 0;
+
+                    }
+                }
+            }
+
+            ul#level-2 {
+                margin-bottom: .3rem;
+                right: 1.3rem !important;
+                top: .05rem;
+                width: 130% !important;
+                li.item-list{
+                    // padding-right: 1rem!important;
+                    width: 120% !important;
+                    margin-right: 0 !important;
+                    div.form-check {
+                        width: 120%;
+                        label.form-check-label{
+                            width: 100%;
+                            a.label-link {
+                                padding-left: 0;
+                            }
+                        }
+                    }
+                    ul#level-3{
+                        right: 1.3rem !important;
+                        top: .05rem;
+                        width: 100%;
+                        li.item-list{
+                            margin-right: 0 !important;
+                            // padding-right: 1rem!important;
+                            div.form-check{
+                                label.form-check-label {
+                                    width: 100%;
+                                    a.label-link {}
+                                }
+                            }
+                            ul#level-4 {
+                                right: 1.3rem !important;
+                                top: .05rem;
+                                width: 100%;
+                                li.item-list{
+                                    margin-right: 0 !important;
+                                    padding-right: 0;
+                                    div.form-check{
+                                        label.form-check-label{
+                                            width: 100%;
+                                            a.label-link {}
+                                        }
+                                    }
+                                }
+                                li.mr-1.pr-3{
+                                    margin-right: .6rem !important;
+                                    padding-right: .2rem !important;
+                                }
+                            }
+                        }
+                        li.mr-1.pr-3{
+                            margin-right: .6rem !important;
+                            padding-right: .2rem !important;
+                        }
+                    }
+
+                }
+                li.mr-1.pr-3{
+                    margin-right: .6rem !important;
+                    padding-right: .2rem !important;
+                }
+            }
+        }
+    }
+
+
+
+}

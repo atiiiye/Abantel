@@ -54,16 +54,27 @@ $(document).ready(function () {
             })
 
 
-
         }else if(!this.checked){
             $(this).parents('li').children('div.form-check').children('input[type=checkbox]').each(function(){
                 this.checked = false;
             })
             $(this).parent('div.form-check').siblings('ul').children('li').children('div.form-check').children('input[type=checkbox]').each(function () {
                 this.checked = false;
+            }).parent('div.form-check').siblings('ul#level-2').children('li').children('div.form-check').children('input[type=checkbox]').each(function () {
+                this.checked = false;
             }).parent('div.form-check').siblings('ul#level-3').children('li').children('div.form-check').children('input[type=checkbox]').each(function () {
                 this.checked = false;
             }).parent('div.form-check').siblings('ul#level-4').children('li').children('div.form-check').children('input[type=checkbox]').each(function () {
+                this.checked = false;
+            })
+
+            $(this).parent('div.form-check').siblings('ul#level-3').children('li').children('div.form-check').children('input[type=checkbox]').each(function () {
+                this.checked = false;
+            }).parent('div.form-check').siblings('ul#level-4').children('li').children('div.form-check').children('input[type=checkbox]').each(function () {
+                this.checked = false;
+            })
+
+            $(this).parent('div.form-check').siblings('ul#level-4').children('li').children('div.form-check').children('input[type=checkbox]').each(function () {
                 this.checked = false;
             })
             
