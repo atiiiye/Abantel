@@ -1,9 +1,6 @@
 @import "fonts";
 @import "base";
 
-// body{
-//     font-size: 90%;
-// }
 header.container-fluid {
     padding: 0;
 }
@@ -89,15 +86,15 @@ div.navbar {
     justify-content: space-between;
     font-size: 100%;
     padding: 0 1rem;
-    background-color: $color-5;
+    background-color: $color-gray;
     height: 45px;
-    max-height: 100%;
+
 
 
     @media(max-width : 991px) {
         padding-top: 1rem;
         padding-bottom: 1rem;
-        min-height: 100%;
+        height: 100%;
 
     }
 
@@ -118,7 +115,7 @@ div.navbar {
             display: inline-block;
             margin-top: 6px;
             position: absolute;
-            top: -3px;
+            top: -4px;
             left: 1rem;
             z-index: 100;
             cursor: pointer;
@@ -178,7 +175,6 @@ div.navbar {
 
         div.collapse {
             ul.navbar-nav {
-                height: 45px;
                 li.nav-end {
                     @media(max-width:1199px) {
                         display: none;
@@ -339,6 +335,8 @@ div.navbar {
                    
                     i.jet-dropdown-arrow {
                         transform: rotate(0deg);
+                        position: relative;
+                        top: 2px;
                     }
 
                     @media(max-width:991px) {
@@ -347,7 +345,7 @@ div.navbar {
                         }
 
                         &:hover>a {
-                            background-color: unset;
+                            background-color: transparent;
                         }
                     }
 
