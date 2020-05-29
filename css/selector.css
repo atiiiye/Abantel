@@ -62,7 +62,9 @@ body {
     width: 100%;
   }
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item div.form-check label.form-check-label {
-    width: 110%;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
   }
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 {
     right: 1.9rem;
@@ -73,7 +75,9 @@ body {
     padding-right: 0;
   }
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item div.form-check label.form-check-label {
-    width: 100%;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
   }
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 {
     right: 1.9rem;
@@ -84,7 +88,9 @@ body {
     padding-right: 0;
   }
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.sub-item div.form-check label.form-check-label {
-    width: 100%;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
   }
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.item-list {
     padding-right: 0;
@@ -150,9 +156,6 @@ body {
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item div.form-check {
     width: 110%;
   }
-  ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item div.form-check label.form-check-label {
-    width: 100%;
-  }
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 {
     right: 1.9rem;
     top: .05rem;
@@ -161,9 +164,6 @@ body {
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item {
     padding-right: 0;
   }
-  ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item div.form-check label.form-check-label {
-    width: 100%;
-  }
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 {
     right: 1.9rem;
     top: .05rem;
@@ -171,9 +171,6 @@ body {
   }
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.sub-item {
     padding-right: 0;
-  }
-  ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.sub-item div.form-check label.form-check-label {
-    width: 100%;
   }
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.item-list {
     width: 130%;
@@ -238,9 +235,6 @@ body {
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item div.form-check {
     width: 110%;
   }
-  ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item div.form-check label.form-check-label {
-    width: 100%;
-  }
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item div.form-check label.form-check-label a.label-link {
     padding-left: 0;
   }
@@ -253,9 +247,6 @@ body {
     margin-right: 0 !important;
     padding-right: 0;
   }
-  ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item div.form-check label.form-check-label {
-    width: 100%;
-  }
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 {
     right: 1.9rem;
     top: .05rem;
@@ -264,9 +255,6 @@ body {
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.sub-item {
     margin-right: 0 !important;
     padding-right: 0;
-  }
-  ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.sub-item div.form-check label.form-check-label {
-    width: 100%;
   }
 }
 
@@ -330,9 +318,6 @@ body {
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item div.form-check {
     width: 110%;
   }
-  ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item div.form-check label.form-check-label {
-    width: 100%;
-  }
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item div.form-check label.form-check-label a.label-link {
     padding-left: 0;
   }
@@ -345,9 +330,6 @@ body {
     margin-right: 0 !important;
     padding-right: 0;
   }
-  ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item div.form-check label.form-check-label {
-    width: 100%;
-  }
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 {
     right: 1.7rem !important;
     top: .05rem;
@@ -357,21 +339,18 @@ body {
     margin-right: 0 !important;
     padding-right: 0;
   }
-  ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.sub-item div.form-check label.form-check-label {
-    width: 100%;
-  }
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.item-list {
     margin-right: 0 !important;
-    padding-right: 0.9rem !important;
+    padding-right: .9rem !important;
   }
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.item-list {
     margin-right: 0 !important;
-    padding-right: 0.9rem !important;
+    padding-right: .9rem !important;
   }
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.item-list {
     width: 130%;
     margin-right: 0 !important;
-    padding-right: 0.9rem !important;
+    padding-right: .9rem !important;
   }
 }
 
@@ -434,9 +413,6 @@ body {
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item div.form-check {
     width: 120%;
   }
-  ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item div.form-check label.form-check-label {
-    width: 100%;
-  }
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item div.form-check label.form-check-label a.label-link {
     padding-left: 0;
   }
@@ -448,9 +424,6 @@ body {
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item {
     margin-right: 0 !important;
   }
-  ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item div.form-check label.form-check-label {
-    width: 100%;
-  }
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 {
     right: 1.3rem !important;
     top: .05rem;
@@ -460,22 +433,15 @@ body {
     margin-right: 0 !important;
     padding-right: 0;
   }
-  ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.sub-item div.form-check label.form-check-label {
-    width: 100%;
-  }
-  ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.mr-1.pr-3 {
-    margin-right: 0 !important;
-    padding-right: 0.9rem !important;
-  }
-  ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.item-list {
+  ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.item-list {
     width: 130%;
     margin-right: 0 !important;
-    padding-right: 0.9rem !important;
+    padding-right: .9rem !important;
   }
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.item-list {
     width: 130%;
     margin-right: 0 !important;
-    padding-right: 0.9rem !important;
+    padding-right: .9rem !important;
   }
 }
 
@@ -717,7 +683,9 @@ div.tree-selector div.container-fluid ul.container-fluid.main-list li.row.list-i
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  width: 100%;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
 }
 
 div.tree-selector div.container-fluid ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 {
@@ -779,7 +747,9 @@ div.tree-selector div.container-fluid ul.container-fluid.main-list li.row.list-i
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  width: 100%;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
 }
 
 div.tree-selector div.container-fluid ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 {
@@ -841,6 +811,23 @@ div.tree-selector div.container-fluid ul.container-fluid.main-list li.row.list-i
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  width: 100%;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+div.tree-selector div.container-fluid ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.item-list {
+  margin-right: 0;
+  padding-right: 18.3px;
+}
+
+div.tree-selector div.container-fluid ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.item-list {
+  margin-right: 0;
+  padding-right: 18.3px;
+}
+
+div.tree-selector div.container-fluid ul.container-fluid.main-list li.row.list-item ul#level-2 li.item-list {
+  margin-right: 0;
+  padding-right: 18.3px;
 }
 /*# sourceMappingURL=selector.css.map */

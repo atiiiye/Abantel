@@ -59,7 +59,7 @@
 
                     div.form-check {
                         label.form-check-label {
-                            width: 110%;
+                            width: max-content;
 
                             a.label-link {}
                         }
@@ -75,7 +75,7 @@
 
                             div.form-check {
                                 label.form-check-label {
-                                    width: 100%;
+                                    width: max-content;
 
                                     a.label-link {}
                                 }
@@ -91,25 +91,28 @@
 
                                     div.form-check {
                                         label.form-check-label {
-                                            width: 100%;
+                                            width: max-content;
 
                                             a.label-link {}
                                         }
                                     }
                                 }
-                                li.item-list{
+
+                                li.item-list {
                                     padding-right: 0;
                                     width: 110%;
                                 }
                             }
                         }
-                        li.item-list{
+
+                        li.item-list {
                             padding-right: 0;
                         }
                     }
 
                 }
-                li.item-list{
+
+                li.item-list {
                     padding-right: 0;
                     width: 110%;
                 }
@@ -186,7 +189,6 @@
                         width: 110%;
 
                         label.form-check-label {
-                            width: 100%;
 
                             a.label-link {}
                         }
@@ -202,7 +204,6 @@
 
                             div.form-check {
                                 label.form-check-label {
-                                    width: 100%;
 
                                     a.label-link {}
                                 }
@@ -218,7 +219,6 @@
 
                                     div.form-check {
                                         label.form-check-label {
-                                            width: 100%;
 
                                             a.label-link {}
                                         }
@@ -230,16 +230,14 @@
                                 }
                             }
                         }
-                        
-                li.item-list{
-                 
-                }
+
+                        li.item-list {}
                     }
 
                 }
 
-                
-                li.item-list{
+
+                li.item-list {
                     padding-right: 0;
                     width: 110%;
                 }
@@ -319,7 +317,6 @@
                         width: 110%;
 
                         label.form-check-label {
-                            width: 100%;
 
                             a.label-link {
                                 padding-left: 0;
@@ -338,7 +335,6 @@
 
                             div.form-check {
                                 label.form-check-label {
-                                    width: 100%;
 
                                     a.label-link {}
                                 }
@@ -355,7 +351,6 @@
 
                                     div.form-check {
                                         label.form-check-label {
-                                            width: 100%;
 
                                             a.label-link {}
                                         }
@@ -367,8 +362,7 @@
 
                 }
 
-                li.item-list{
-                }
+                li.item-list {}
             }
         }
     }
@@ -452,7 +446,6 @@
                         width: 110%;
 
                         label.form-check-label {
-                            width: 100%;
 
                             a.label-link {
                                 padding-left: 0;
@@ -471,7 +464,6 @@
 
                             div.form-check {
                                 label.form-check-label {
-                                    width: 100%;
 
                                     a.label-link {}
                                 }
@@ -488,21 +480,22 @@
 
                                     div.form-check {
                                         label.form-check-label {
-                                            width: 100%;
 
                                             a.label-link {}
                                         }
                                     }
                                 }
-                                li.item-list{
+
+                                li.item-list {
                                     margin-right: 0 !important;
-                                    padding-right: .9rem!important;
+                                    padding-right: .9rem !important;
                                 }
                             }
                         }
-                        li.item-list{
+
+                        li.item-list {
                             margin-right: 0 !important;
-                            padding-right: .9rem!important;
+                            padding-right: .9rem !important;
                         }
                     }
 
@@ -511,7 +504,7 @@
                 li.item-list {
                     width: 130%;
                     margin-right: 0 !important;
-                    padding-right: .9rem!important;
+                    padding-right: .9rem !important;
                 }
             }
         }
@@ -596,7 +589,6 @@
                         width: 120%;
 
                         label.form-check-label {
-                            width: 100%;
 
                             a.label-link {
                                 padding-left: 0;
@@ -615,7 +607,6 @@
                             // padding-right: 1rem!important;
                             div.form-check {
                                 label.form-check-label {
-                                    width: 100%;
 
                                     a.label-link {}
                                 }
@@ -632,24 +623,18 @@
 
                                     div.form-check {
                                         label.form-check-label {
-                                            width: 100%;
 
                                             a.label-link {}
                                         }
                                     }
                                 }
 
-                                li.mr-1.pr-3 {
+                                li.item-list {
+                                    width: 130%;
                                     margin-right: 0 !important;
-                                    padding-right: .9rem!important;
+                                    padding-right: .9rem !important;
                                 }
                             }
-                        }
-
-                        li.item-list {
-                            width: 130%;
-                            margin-right: 0 !important;
-                                    padding-right: .9rem!important;
                         }
 
                     }
@@ -659,8 +644,8 @@
                 li.item-list {
 
                     width: 130%;
-                 margin-right: 0 !important;
-                                    padding-right: .9rem!important;
+                    margin-right: 0 !important;
+                    padding-right: .9rem !important;
                 }
             }
         }
