@@ -55,7 +55,7 @@ div.tree-selector {
                         margin-top: 0
                     }
 
-                    input.plus-minus:checked+label.form-check-label span {
+                    input.plus-minus:checked+label.form-check-label span.my-checkbox {
                         background: $color-blue-3;
                         border-color: $color-blue-3;
                         animation: wave 0.4s ease;
@@ -83,6 +83,7 @@ div.tree-selector {
                         // margin-right: 6px;
                         display: flex;
                         justify-content: center;
+                        align-items: center;
                         // width: 100%;
 
                         span.my-checkbox {
@@ -126,7 +127,7 @@ div.tree-selector {
                             }
                         }
 
-                        a.label-link {
+                        span.label-link {
                             color: #000000;
                             text-decoration: none;
                             font-size: 90%;
@@ -147,7 +148,6 @@ div.tree-selector {
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
-                    // align-items: center;
                     position: relative;
                     right: 2rem;
                     top: .05rem;
@@ -163,7 +163,6 @@ div.tree-selector {
 
                         &:hover {
                             background-color: transparent;
-
                         }
 
                         &:active {
@@ -181,6 +180,7 @@ div.tree-selector {
                                 display: flex;
                                 justify-content: flex-start;
                                 width: max-content;
+                                align-items: center;
 
                                 span.my-checkbox {
                                     svg.check-mark {}
@@ -190,7 +190,7 @@ div.tree-selector {
                                     }
                                 }
 
-                                a.label-link {}
+                                span.label-link {}
                             }
                         }
 
@@ -233,6 +233,7 @@ div.tree-selector {
                                         display: flex;
                                         justify-content: flex-start;
                                         width: max-content;
+                                        align-items: center;
 
                                         span.my-checkbox {
                                             svg.check-mark {}
@@ -242,7 +243,7 @@ div.tree-selector {
                                             }
                                         }
 
-                                        a.label-link {}
+                                        span.label-link {}
                                     }
                                 }
 
@@ -285,6 +286,7 @@ div.tree-selector {
                                                 display: flex;
                                                 justify-content: flex-start;
                                                 width: max-content;
+                                                align-items: center;
 
                                                 span.my-checkbox {
                                                     svg.check-mark {}
@@ -294,7 +296,7 @@ div.tree-selector {
                                                     }
                                                 }
 
-                                                a.label-link {}
+                                                span.label-link {}
                                             }
                                         }
                                     }

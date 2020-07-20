@@ -1,28 +1,11 @@
 
 $(document).ready(function () {
-	$('.dropdown-menu li.dropdown').on('click', function (e) {
-		$(this).toggleClass("show");
-		var $subMenu = $(this).find('ul:nth-child(1)').addClass('show');
-		$subMenu.toggleClass('show');
-
-		return false;
-	});
-
 
 	$('li.dropdown-item').on('click', function (e) {
 		$(this).parents('ul.dropdown-menu.show').removeClass('show');
 		$(this).parents('li.nav-item.dropdown.show').removeClass('show');
 		$(this).parents('div.collapse').prev('div.hamburger-menu.navbar-toggler').addClass('collapsed');
-
 	})
-	// $('li.list-item').on('click', function () {
-	// 	$(this).parents('div.navbar-right').children('div.hamburger-menu.navbar-toggler').addClass('collapsed');
-	// })
-
-	// $('li.list-item').on('mouseenter', function () {
-	// 	$(this).parents('div.navbar-right').children('div.hamburger-menu.navbar-toggler').addClass('collapsed');
-	// })
-
 
 	$('li#list-item').on('click', function (e) {
 		$(this).parents('div.collapse.navbar-collapse').toggleClass('show');
@@ -32,9 +15,7 @@ $(document).ready(function () {
 	$('li.dropdown-item').on('click', function (e) {
 		$(this).parents('div.collapse.navbar-collapse.show').removeClass('show');
 		$(this).parents('div.navbar-right').children('div.navbar-toggler').children('span.navbar-toggler-icon').toggleClass('change')
-		// $(this).parents('list-item.dropdown.show').removeClass('show');
 	})
-
 
 	let nanBarTogglerIcon = document.querySelector('.navbar-toggler-icon');
 	let listItemShow = document.querySelector('li.list-item.dropdown')
@@ -42,8 +23,6 @@ $(document).ready(function () {
 	let sub21 = document.querySelector('li#sub2-1');
 	let navItemDropdown = document.querySelector('li#nav-item');
 	let navItemDropdowns = document.querySelectorAll('li.nav-item.dropdown')
-
-
 
 	nanBarTogglerIcon.addEventListener('click', function (e) {
 		nanBarTogglerIcon.classList.toggle("change");
@@ -84,7 +63,6 @@ $(document).ready(function () {
 		this.classList.remove('show');
 	})
 
-
 	sub21.addEventListener('mouseover', function () {
 		this.classList.add('show');
 	})
@@ -95,4 +73,3 @@ $(document).ready(function () {
 
 
 })
-

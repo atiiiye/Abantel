@@ -50,8 +50,12 @@ body {
     width: 16px;
     height: 16px;
   }
-  ul.container-fluid.main-list li.row.list-item div.form-check label.form-check-label a.label-link {
+  ul.container-fluid.main-list li.row.list-item div.form-check label.form-check-label span.label-link {
     padding-left: 0;
+  }
+  ul.container-fluid.main-list li.row.list-item div.form-check label#form-check-label {
+    position: relative;
+    right: -2px;
   }
   ul.container-fluid.main-list li.row.list-item ul#level-2 {
     margin-bottom: .3rem;
@@ -68,6 +72,10 @@ body {
     width: -moz-max-content;
     width: max-content;
   }
+  ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item div.form-check label#form-check-label {
+    position: relative;
+    right: -2px;
+  }
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 {
     right: 1.9rem;
     top: .05rem;
@@ -81,6 +89,10 @@ body {
     width: -moz-max-content;
     width: max-content;
   }
+  ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item div.form-check label#form-check-label {
+    position: relative;
+    right: -2px;
+  }
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 {
     right: 1.9rem;
     top: .05rem;
@@ -93,6 +105,10 @@ body {
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
+  }
+  ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.sub-item div.form-check label#form-check-label {
+    position: relative;
+    right: -2px;
   }
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.item-list {
     padding-right: 0;
@@ -137,13 +153,19 @@ body {
   }
   ul.container-fluid.main-list li.row.list-item div.form-check label.form-check-label {
     padding: 5px 2px;
+    position: relative;
+    right: -2px;
   }
   ul.container-fluid.main-list li.row.list-item div.form-check label.form-check-label span.my-checkbox {
-    width: 16px !important;
-    height: 16px !important;
+    width: 17px !important;
+    height: 17px !important;
   }
-  ul.container-fluid.main-list li.row.list-item div.form-check label.form-check-label a.label-link {
+  ul.container-fluid.main-list li.row.list-item div.form-check label.form-check-label span.label-link {
     padding-left: 0;
+  }
+  ul.container-fluid.main-list li.row.list-item div.form-check label#form-check-label {
+    position: relative;
+    right: -4px;
   }
   ul.container-fluid.main-list li.row.list-item ul#level-2 {
     margin-bottom: .3rem;
@@ -157,6 +179,10 @@ body {
   }
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item div.form-check {
     width: 110%;
+  }
+  ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item div.form-check label#form-check-label {
+    position: relative;
+    right: -4px;
   }
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 {
     right: 1.9rem;
@@ -173,6 +199,10 @@ body {
   }
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.sub-item {
     padding-right: 0;
+  }
+  ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.sub-item div.form-check label#form-check-label {
+    position: relative;
+    right: -4px;
   }
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.item-list {
     width: 130%;
@@ -220,7 +250,7 @@ body {
     width: 16px;
     height: 16px;
   }
-  ul.container-fluid.main-list li.row.list-item div.form-check label.form-check-label a.label-link {
+  ul.container-fluid.main-list li.row.list-item div.form-check label.form-check-label span.label-link {
     padding-left: 0;
   }
   ul.container-fluid.main-list li.row.list-item ul#level-2 {
@@ -237,7 +267,7 @@ body {
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item div.form-check {
     width: 110%;
   }
-  ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item div.form-check label.form-check-label a.label-link {
+  ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item div.form-check label.form-check-label span.label-link {
     padding-left: 0;
   }
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 {
@@ -298,13 +328,21 @@ body {
     height: 15px !important;
   }
   ul.container-fluid.main-list li.row.list-item div.form-check label.form-check-label span.my-checkbox svg.check-mark {
-    width: 10px !important;
-    height: 9px !important;
+    width: 9px !important;
+    height: 8px !important;
     top: 2px !important;
     left: 2px;
   }
-  ul.container-fluid.main-list li.row.list-item div.form-check label.form-check-label a.label-link {
+  ul.container-fluid.main-list li.row.list-item div.form-check label.form-check-label label#form-check-label {
+    position: relative;
+    right: -2px;
+  }
+  ul.container-fluid.main-list li.row.list-item div.form-check label.form-check-label span.label-link {
     padding-left: 0;
+  }
+  ul.container-fluid.main-list li.row.list-item div.form-check label#form-check-label {
+    position: relative;
+    right: -2px;
   }
   ul.container-fluid.main-list li.row.list-item ul#level-2 {
     margin-bottom: .3rem;
@@ -320,8 +358,12 @@ body {
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item div.form-check {
     width: 110%;
   }
-  ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item div.form-check label.form-check-label a.label-link {
+  ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item div.form-check label.form-check-label span.label-link {
     padding-left: 0;
+  }
+  ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item div.form-check label#form-check-label {
+    position: relative;
+    right: -2px;
   }
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 {
     right: 1.7rem !important;
@@ -332,6 +374,10 @@ body {
     margin-right: 0 !important;
     padding-right: 0;
   }
+  ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item div.form-check label#form-check-label {
+    position: relative;
+    right: -2px;
+  }
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 {
     right: 1.7rem !important;
     top: .05rem;
@@ -340,6 +386,10 @@ body {
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.sub-item {
     margin-right: 0 !important;
     padding-right: 0;
+  }
+  ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.sub-item div.form-check label#form-check-label {
+    position: relative;
+    right: -3px;
   }
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.item-list {
     margin-right: 0 !important;
@@ -357,9 +407,6 @@ body {
 }
 
 @media (max-width: 440px) {
-  body {
-    font-size: 82%;
-  }
   p.h5 {
     padding: .8rem 1rem !important;
     font-size: .8rem;
@@ -399,7 +446,7 @@ body {
     top: 2px !important;
     left: 2px;
   }
-  ul.container-fluid.main-list li.row.list-item div.form-check label.form-check-label a.label-link {
+  ul.container-fluid.main-list li.row.list-item div.form-check label.form-check-label span.label-link {
     padding-left: 0;
   }
   ul.container-fluid.main-list li.row.list-item ul#level-2 {
@@ -415,7 +462,7 @@ body {
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item div.form-check {
     width: 120%;
   }
-  ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item div.form-check label.form-check-label a.label-link {
+  ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item div.form-check label.form-check-label span.label-link {
     padding-left: 0;
   }
   ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 {
@@ -521,7 +568,7 @@ div.tree-selector div.container-fluid ul.container-fluid.main-list li.row.list-i
   margin-top: 0;
 }
 
-div.tree-selector div.container-fluid ul.container-fluid.main-list li.row.list-item div.form-check input.plus-minus:checked + label.form-check-label span {
+div.tree-selector div.container-fluid ul.container-fluid.main-list li.row.list-item div.form-check input.plus-minus:checked + label.form-check-label span.my-checkbox {
   background: #07f;
   border-color: #07f;
   -webkit-animation: wave 0.4s ease;
@@ -563,6 +610,9 @@ div.tree-selector div.container-fluid ul.container-fluid.main-list li.row.list-i
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 div.tree-selector div.container-fluid ul.container-fluid.main-list li.row.list-item div.form-check label.form-check-label span.my-checkbox {
@@ -615,7 +665,7 @@ div.tree-selector div.container-fluid ul.container-fluid.main-list li.row.list-i
           user-select: none;
 }
 
-div.tree-selector div.container-fluid ul.container-fluid.main-list li.row.list-item div.form-check label.form-check-label a.label-link {
+div.tree-selector div.container-fluid ul.container-fluid.main-list li.row.list-item div.form-check label.form-check-label span.label-link {
   color: #000000;
   text-decoration: none;
   font-size: 90%;
@@ -688,6 +738,9 @@ div.tree-selector div.container-fluid ul.container-fluid.main-list li.row.list-i
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 div.tree-selector div.container-fluid ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 {
@@ -752,6 +805,9 @@ div.tree-selector div.container-fluid ul.container-fluid.main-list li.row.list-i
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 div.tree-selector div.container-fluid ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 {
@@ -816,6 +872,9 @@ div.tree-selector div.container-fluid ul.container-fluid.main-list li.row.list-i
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 div.tree-selector div.container-fluid ul.container-fluid.main-list li.row.list-item ul#level-2 li.sub-item ul#level-3 li.sub-item ul#level-4 li.item-list {
