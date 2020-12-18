@@ -258,8 +258,6 @@ div.navbar {
     background-color: $color-gray;
     height: 45px;
 
-
-
     @media(max-width : 991px) {
         padding-top: 1rem;
         padding-bottom: 1rem;
@@ -473,7 +471,7 @@ div.navbar {
                         cursor: pointer;
                         outline: 0;
                         font-size: 90%;
-                     
+
 
                         @media(max-width:1140px) {
                             padding: .7rem .5rem;
@@ -501,7 +499,7 @@ div.navbar {
 
                 li.nav-item.dropdown {
 
-                   
+
                     i.jet-dropdown-arrow {
                         transform: rotate(0deg);
                         position: relative;
@@ -526,7 +524,7 @@ div.navbar {
                         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
                         position: absolute;
                         right: 0px;
-                        top:45px;
+                        top: 45px;
                         text-align: right;
 
                         li.list-item {
@@ -540,6 +538,7 @@ div.navbar {
 
                             a.dropdown-item {
                                 font-size: 90%;
+
                                 i.jet-dropdown-arrow {
                                     transform: rotate(0deg);
                                 }
@@ -557,6 +556,7 @@ div.navbar {
 
                                     a.dropdown-item {
                                         font-size: 90%;
+
                                         i.jet-dropdown-arrow {
                                             transform: rotate(0deg);
                                         }
@@ -568,6 +568,7 @@ div.navbar {
 
                             a.dropdown-item {
                                 font-size: 90%;
+
                                 i.jet-dropdown-arrow {
                                     transform: rotate(0deg);
                                 }
@@ -724,8 +725,9 @@ div.navbar {
                         cursor: pointer;
                     }
                 }
-                li.nav-item.nav-end{
-                    a.nav-link{
+
+                li.nav-item.nav-end {
+                    a.nav-link {
                         padding-bottom: .7rem;
                     }
                 }
@@ -789,7 +791,7 @@ div.navbar {
                         // top: 2px;
                         display: flex;
                         align-items: flex-start;
-                   
+
 
 
                         @media(max-width: 1199px) {
@@ -803,3 +805,4 @@ div.navbar {
     }
 
 }
+
